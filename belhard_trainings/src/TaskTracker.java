@@ -9,7 +9,7 @@ public class TaskTracker {
         System.out.print("Введите описание задачи:");
         String description = scanner.nextLine();
         System.out.print("Введите приоритет задачи:");
-        String priority = scanner.nextLine();
+        int priority = scanner.nextInt();
         System.out.println("Информация о задаче:");
         System.out.printf("Название задачи - %s;\n", taskName);
         System.out.printf("Описание задачи - %s;\n", description);
